@@ -101,6 +101,7 @@ console.log('      ');
 
 //LA FUNCION forEach RECORRE TODOS LOS ELEMENTOS DE UN ARRAY ESPECIFICADO, 
 //APLICANDO LA FUNCION QUE SE LE ORDENE
+//CUIDADO! METODO DESTRUCTIVO, MODIFICA EL ARRAY ORIGINAL.
 
 const productos = [
 	{id: 1, titulo: 'iphone1', precio:1000,  stock:5, descuento:50},
